@@ -1,26 +1,5 @@
-# Ignore data files
 data/*.csv
-
-# Ignore model files
-models/*.pkl
-
-# Ignore Jupyter Notebook checkpoints
-.ipynb_checkpoints/
-
-# Ignore environment files
-env/
-*.env
-
-# Ignore system files
-.DS_Store
 __pycache__/
-*.py[cod]
-*.ipynb
+*.ipynb_checkpoints
+models/*
 
-# Ignore IDE/project files
-.vscode/
-.idea/
-*.log
-
-# Ignore other files
-*.egg-info/
